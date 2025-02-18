@@ -34,7 +34,7 @@ Een overzicht van de meest gebruikte testing libraries over tijd:
 - **Test Library**:
 Testing Library is geen test runner of vergelijkbaar met een ander testing framework. Testing Library is een bibliotheek die je helpt om betere UI-tests te schrijven, vanuit het perspectief van de gebruiker door het kunnen renderen van een DOM en custom components. Erg handig maar kan altijd later geïmplementeerd worden.
 
-- **Node Test Runner**: Node Test Runner is een test runner gebouwd in Node.js zelf. Dus geen browserinteractie wat wel een vereiste is.
+- **Node Test Runner**: Node Test Runner is een test runner gebouwd in Node.js zelf. Dus geen browserinteractie mogelijk, wat wel een vereiste is.
 
 
 ### Overzicht van libraries:
