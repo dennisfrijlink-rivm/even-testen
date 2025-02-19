@@ -55,7 +55,7 @@ Testing Library is geen test runner of vergelijkbaar met een ander testing frame
 | Unit tests | ✅ | ✅ | 🚧 | ❌ | 🚧 | 🚧 | ✅ | ❌ | ❌ |
 | Integratietests | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | End-to-end tests | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
-| Screenshots | ❌ | ❌ | Ja, ingebouwd | Ja, ingebouwd | Ja, ingebouwd | ❌ | ❌ | ❌ | Ja, ingebouwd |
-| Typescript ondersteuning | Ja, uitstekend | ❌ | Ja, goed | Ja, goed | Ja, uitstekend | Ja, uitstekend | Ja, uitstekend | ❌ | Ja, goed |
+| Screenshots | ❌ | ❌ | ✅  | ✅  | ✅  | ❌ | ❌ | ❌ | ✅  |
+| Typescript ondersteuning | ✅  | ❌ | ✅  | ✅  | ✅  | ✅  | ✅  | ❌ | ✅  |
 | Kosten | Gratis 💸 | Gratis 💸 | Gratis 💸 | Gratis 💸 | Gratis 💸 | Gratis 💸 | Gratis 💸 | Gratis 💸 | Gratis 💸 |
-| Ondersteuning meerdere browsers | ❌, alleen via mocking | ❌ | ❌, alleen Chromium gebaseerd | Ja, Chromium, Firefox, WebKit | Ja, Chromium, Firefox, WebKit | Ja, Chromium, Firefox, WebKit | ❌, alleen via mocking | Ja, Chromium, Firefox, WebKit | Ja, Chromium, Firefox, WebKit |
+| Ondersteuning meerdere browsers | 🚧, alleen via mocking | ❌ | 🚧, alleen Chromium gebaseerd | ✅ , Chromium, Firefox, WebKit | ✅ , Chromium, Firefox, WebKit | ✅ , Chromium, Firefox, WebKit | 🚧, alleen via mocking | ✅ , Chromium, Firefox, WebKit | ✅ , Chromium, Firefox, WebKit |
