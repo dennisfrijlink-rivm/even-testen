@@ -20,7 +20,7 @@ End-to-end tests testen de hele applicatie van begin tot eind. Ze zijn bedoeld o
 ## 🚀 Populaire test libraries
 > "*It's rare to see a trend as clear as Vitest's ascencion through the ranks over the past few years. While it may "only" be number four in terms of usage, it already tops the interest, retention, and overall positivity rankings – and shows no sign of conceding the top spot anytime soon.*" - State of JS
 
-Een overzicht van de meest gebruikte testing libraries over tijd:
+Een overzicht van de meest gebruikte testing libraries over tijd (gesorteerd op positiviteit):
 
 <img src="./public/images/state-of-js-metrics.png">
 
@@ -38,6 +38,13 @@ Testing Library is geen test runner of vergelijkbaar met een ander testing frame
 
 
 ### Overzicht van libraries:
+```text
+✅ = Functie bestaat (mogelijk in beperkte vorm)
+
+🚧 = Functie is mogelijk aanwezig, maar niet praktisch of officieel uitgebracht
+
+❌ = Functie bestaat (nog) niet
+```
 | **Library** | [Jest](https://github.com/facebook/jest) | [Mocha](https://github.com/mochajs/mocha) | [Cypress](https://github.com/cypress-io/cypress) | [Puppeteer](https://github.com/puppeteer/puppeteer) | [Playwright](https://github.com/microsoft/playwright) | [WebdriverIO](https://github.com/webdriverio/webdriverio) | [Vitest](https://github.com/vitest-dev/vitest) | [Selenium](https://github.com/SeleniumHQ/selenium) | [TestCafe](https://github.com/DevExpress/testcafe)
 |---|---|---|---|---|---|---|---|---|---|
 | **Logo** | <center><img style="width: 50px;" src="./public/images/jest.svg"></center> | <center><img style="width: 50px;" src="./public/images/mocha.svg"></center> | <center><img style="width: 50px;" src="./public/images/cypress.svg"></center> | <center><img style="width: 50px;" src="./public/images/puppeteer.svg"></center> | <center><img style="width: 50px;" src="./public/images/playwright.svg"></center> | <center><img style="width: 50px;" src="./public/images/webdriverio.svg"></center> | <center><img style="width: 50px;" src="./public/images/vitest.svg"></center> | <center><img style="width: 50px;" src="./public/images/selenium.svg"></center> | <center><img style="width: 50px;" src="./public/images/testcafe.svg"></center> |
@@ -45,7 +52,7 @@ Testing Library is geen test runner of vergelijkbaar met een ander testing frame
 | Contributors | ![Bijdragers](https://img.shields.io/github/contributors/facebook/jest) | ![Bijdragers](https://img.shields.io/github/contributors/mochajs/mocha) | ![Bijdragers](https://img.shields.io/github/contributors/cypress-io/cypress) | ![Bijdragers](https://img.shields.io/github/contributors/puppeteer/puppeteer) | ![Bijdragers](https://img.shields.io/github/contributors/microsoft/playwright) | ![Bijdragers](https://img.shields.io/github/contributors/webdriverio/webdriverio) | ![Bijdragers](https://img.shields.io/github/contributors/vitest-dev/vitest) | ![Bijdragers](https://img.shields.io/github/contributors/SeleniumHQ/selenium) | ![Bijdragers](https://img.shields.io/github/contributors/DevExpress/testcafe) |
 | Last Commit | ![Laatste commit](https://img.shields.io/github/last-commit/facebook/jest) | ![Laatste commit](https://img.shields.io/github/last-commit/mochajs/mocha) | ![Laatste commit](https://img.shields.io/github/last-commit/cypress-io/cypress) | ![Laatste commit](https://img.shields.io/github/last-commit/puppeteer/puppeteer) | ![Laatste commit](https://img.shields.io/github/last-commit/microsoft/playwright) | ![Laatste commit](https://img.shields.io/github/last-commit/webdriverio/webdriverio) | ![Laatste commit](https://img.shields.io/github/last-commit/vitest-dev/vitest) | ![Laatste commit](https://img.shields.io/github/last-commit/SeleniumHQ/selenium) | ![Laatste commit](https://img.shields.io/github/last-commit/DevExpress/testcafe) |
 | License | ![Licentie](https://img.shields.io/github/license/facebook/jest) | ![Licentie](https://img.shields.io/github/license/mochajs/mocha) | ![Licentie](https://img.shields.io/github/license/cypress-io/cypress) | ![Licentie](https://img.shields.io/github/license/puppeteer/puppeteer) | ![Licentie](https://img.shields.io/github/license/microsoft/playwright) | ![Licentie](https://img.shields.io/github/license/webdriverio/webdriverio) | ![Licentie](https://img.shields.io/github/license/vitest-dev/vitest) | ![Licentie](https://img.shields.io/github/license/SeleniumHQ/selenium) | ![Licentie](https://img.shields.io/github/license/DevExpress/testcafe) |
-| Unit tests | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
+| Unit tests | ✅ | ✅ | 🚧 | ❌ | 🚧 | 🚧 | ✅ | ❌ | ❌ |
 | Integratietests | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | End-to-end tests | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Screenshots | ❌ | ❌ | Ja, ingebouwd | Ja, ingebouwd | Ja, ingebouwd | ❌ | ❌ | ❌ | Ja, ingebouwd |
