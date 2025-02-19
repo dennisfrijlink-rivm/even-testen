@@ -1,4 +1,4 @@
-<p align="center"><img alt="" width="80" height="auto" src="./public/images/logo.svg">
+<p align="center"><img alt="" width="80" height="auto" src="./public/images/logo.svg"></p>
 
 # Even testen (overzicht test libraries)
 
@@ -27,14 +27,18 @@ Een overzicht van de meest gebruikte testing libraries over tijd (gesorteerd op 
 [Bron: stateofjs 2024](https://2024.stateofjs.com/en-US/libraries/testing/)
 
 ### 🙈 Libraries niet meegenomen in de afweging:
-- **Storybook**: Buiten het feit dat Storybook een geweldige optie voor het ontwikkelen, visualiseren, documenteren en bijhouden van custom components, is het niet ontworpen voor het schrijven van E2E-tests die de volledige functionaliteit van een webapplicatie testen of unit-tests voor specifieke functies.
 
-- **Mock Service Worker**: Het doel van Mock Service Worker is het isoleren van de frontend tijdens het testen, zodat de tests niet afhankelijk zijn van een echte backend. Dit is heel handig (al helemaal als we gaan werken met externe bronnen als een API). MSWM kan altijd later nog toegevoegd worden aan het project.
 
-- **Test Library**:
+- <img alt="" width="20" height="auto" src="./public/images/storybook.svg"> **Storybook**: 
+Buiten het feit dat Storybook een geweldige optie voor het ontwikkelen, visualiseren, documenteren en bijhouden van custom components, is het niet ontworpen voor het schrijven van E2E-tests die de volledige functionaliteit van een webapplicatie testen of unit-tests voor specifieke functies.
+
+
+- <img alt="" width="20" height="auto" src="./public/images/msw.svg"> **Mock Service Worker**: Het doel van Mock Service Worker is het isoleren van de frontend tijdens het testen, zodat de tests niet afhankelijk zijn van een echte backend. Dit is heel handig (al helemaal als we gaan werken met externe bronnen als een API). MSWM kan altijd later nog toegevoegd worden aan het project.
+
+- <img alt="" width="20" height="auto" src="./public/images/testing-library.svg"> **Testing Library**:
 Testing Library is geen test runner of vergelijkbaar met een ander testing framework. Testing Library is een bibliotheek die je helpt om betere UI-tests te schrijven, vanuit het perspectief van de gebruiker door het kunnen renderen van een DOM en custom components. Erg handig maar kan altijd later geïmplementeerd worden.
 
-- **Node Test Runner**: Node Test Runner is een test runner gebouwd in Node.js zelf. Dus geen browserinteractie mogelijk, wat wel een vereiste is.
+- <img alt="" width="20" height="auto" src="./public/images/nodejs.svg"> **Node Test Runner**: Node Test Runner is een test runner gebouwd in Node.js zelf. Dus geen browserinteractie mogelijk, wat wel een vereiste is.
 
 
 ### Overzicht van libraries:
