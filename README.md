@@ -33,7 +33,7 @@ Een overzicht van de meest gebruikte testing libraries over tijd (gesorteerd op 
 Buiten het feit dat Storybook een geweldige optie voor het ontwikkelen, visualiseren, documenteren en bijhouden van custom components, is het niet ontworpen voor het schrijven van E2E-tests die de volledige functionaliteit van een webapplicatie testen of unit-tests voor specifieke functies.
 
 
-- <img alt="" width="20" height="auto" src="./public/images/msw.svg"> **Mock Service Worker**: Het doel van Mock Service Worker is het isoleren van de frontend tijdens het testen, zodat de tests niet afhankelijk zijn van een echte backend. Dit is heel handig (al helemaal als we gaan werken met externe bronnen als een API). MSWM kan altijd later nog toegevoegd worden aan het project.
+- <img alt="" width="20" height="auto" src="./public/images/msw.svg"> **Mock Service Worker**: Het doel van Mock Service Worker is het isoleren van de frontend tijdens het testen, zodat de tests niet afhankelijk zijn van een echte backend. Dit is heel handig (al helemaal als we gaan werken met externe bronnen als een API). MSW kan altijd later nog toegevoegd worden aan het project.
 
 - <img alt="" width="20" height="auto" src="./public/images/testing-library.svg"> **Testing Library**:
 Testing Library is geen test runner of vergelijkbaar met een ander testing framework. Testing Library is een bibliotheek die je helpt om betere UI-tests te schrijven, vanuit het perspectief van de gebruiker door het kunnen renderen van een DOM en custom components. Erg handig maar kan altijd later geïmplementeerd worden.
